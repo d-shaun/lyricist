@@ -15,9 +15,17 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "lib/*.js": ["prettier --write", "git add"]
+    "lib/*.js": [
+      "prettier --write",
+      "git add"
+    ]
   },
-  "keywords": ["lyric", "lyrics", "scrape", "genius"],
+  "keywords": [
+    "lyric",
+    "lyrics",
+    "scrape",
+    "genius"
+  ],
   "author": "scf4 (https://github.com/scf4)",
   "license": "MIT",
   "bugs": {
